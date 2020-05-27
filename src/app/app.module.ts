@@ -8,7 +8,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ClipboardModule } from 'ngx-clipboard';
 
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { MapsComponent } from '.pages/maps/maps.component';
+import { MapsComponent } from './pages/maps/maps.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
