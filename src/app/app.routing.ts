@@ -5,8 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { MapsComponent } from './pages/maps/maps.component';
+
 
 const routes: Routes =[
+   { path: 'dashboard',      component: DashboardComponent },
+    { path: 'maps',           component: MapsComponent },
   {
     path: '',
     redirectTo: 'dashboard',
